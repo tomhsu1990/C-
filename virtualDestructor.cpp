@@ -3,17 +3,17 @@ using namespace std;
 
 class Obstacle{
 public:
+	// with virtual
 	virtual ~Obstacle () {
 		cout << "Delete Obstacle" << endl;
 	}
-	// with virtual
 	// Delete Segment
 	// Delete Obstacle
 	
+	// without virtual
 	// ~Obstacle () {
 	// 	cout << "Delete Obstacle" << endl;
 	// }
-	// without virtual
 	// Delete Obstacle
 };
 
