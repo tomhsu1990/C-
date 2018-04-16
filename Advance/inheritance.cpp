@@ -21,7 +21,7 @@ public:
 	void eat();
 };
 void Lion::eat() {
-	printf("Lion is %s\n", diet_type[diet]);
+	fprintf(stderr, "Lion is %s\n", diet_type[diet]);
 }
 
 class Sheep : public Animal {
@@ -32,7 +32,7 @@ public:
 	void eat();
 };
 void Sheep::eat() {
-	printf("Sheep is %s\n", diet_type[diet]);
+	fprintf(stderr, "Sheep is %s\n", diet_type[diet]);
 }
 
 class Zoo {
